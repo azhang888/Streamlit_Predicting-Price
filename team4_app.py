@@ -45,9 +45,10 @@ page_selected = st.sidebar.radio("Menu", ["Home", "Model", "About"])
 X, y = assignment1.load_prepare()
 training_accuracy, confusion_matrix, pipeline = assignment1.build_pipeline_final(X, y)
 # fetch data from firestore
-docs = db.collection(u'predict').document(u'my_doc').get()
-items = docs.to_dict()
-df = pd.DataFrame.from_records(items)
+#docs = db.collection(u'predict').document(u'my_doc').get()
+#items = docs.to_dict()
+#df = pd.DataFrame.from_records(items)
+df = assignment1.apply_pipeline()
 
 ################################################################
 ################## Home Page ###################################
