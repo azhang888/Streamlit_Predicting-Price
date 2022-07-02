@@ -8,9 +8,9 @@ import seaborn as sns
 from google.cloud import firestore
 
 # connect to firestore
-import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'macro-key-340706-658d688f339a.json'
-db = firestore.Client()
+#import os
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'macro-key-340706-658d688f339a.json'
+#db = firestore.Client()
 
 #################################################################
 ################## Page Settings ################################
