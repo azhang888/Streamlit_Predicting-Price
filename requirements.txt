@@ -1,0 +1,9 @@
+streamlit 
+pandas 
+sklearn 
+numpy 
+scikit-learn 
+tk == 0.1.0
+matplotlib
+seaborn
+google-cloud-firestore
